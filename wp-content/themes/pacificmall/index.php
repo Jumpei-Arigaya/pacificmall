@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="keywords" content="共通キーワード" />
   <meta name="description" content="共通ディスクリプション" />
   <title>PACIFIC MALL DEVELOPMENT</title>
-  <link rel="shortcut icon" href="./assets/images/common/favicon.ico" />
+  <link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/favicon.ico" />
   <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Vollkorn:400i" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="./assets/css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/css/styles.css" />
   <script type="text/javascript" src="./assets/js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="./assets/js/bundle.js"></script>
 </head>
+
 <body>
   <div class="container">
     <header id="header">
       <div class="header-inner">
         <div class="logo">
           <a class="logo-header" href="/pacificmall">
-            <img src="./assets/images/common/logo-main.svg" class="main-logo" alt="PACIFIC MALL DEVELOPMENT" />
-            <img src="./assets/images/common/logo-fixed.svg" class="fixed-logo" alt="PACIFIC MALL DEVELOPMENT" />
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo-main.svg" class="main-logo" alt="PACIFIC MALL DEVELOPMENT" />
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo-fixed.svg" class="fixed-logo" alt="PACIFIC MALL DEVELOPMENT" />
           </a>
         </div>
         <button class="toggle-menu js-toggoleNav">
@@ -63,7 +65,7 @@
       </div>
     </header>
     <section class="section-contents" id="keyvisual">
-      <img src="./assets/images/bg-section-keyvisual.jpg" alt="MAIN IMAGE" />
+      <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/bg-section-keyvisual.jpg" alt="MAIN IMAGE" />
       <div class="wrapper">
         <h1 class="site-title">Connecting the future.</h1>
         <p class="site-caption">
@@ -153,7 +155,7 @@
             <a class="card-link" href="#">
               <div class="card-inner">
                 <div class="card-image">
-	                <img src="#" alt="" />
+                  <img src="#" alt="" />
                 </div>
                 <div class="card-body">
                   <p class="title">街のちびっこダンス大会</p>
@@ -169,7 +171,7 @@
             <a class="card-link" href="#">
               <div class="card-inner">
                 <div class="card-image">
-	                <img src="#" alt="" />
+                  <img src="#" alt="" />
                 </div>
                 <div class="card-body">
                   <p class="title">都市カンファレンス</p>
@@ -185,7 +187,7 @@
             <a class="card-link" href="#">
               <div class="card-inner">
                 <div class="card-image">
-	                <img src="#" alt="" />
+                  <img src="#" alt="" />
                 </div>
                 <div class="card-body">
                   <p class="title">タムリンフェスティバル</p>
@@ -260,13 +262,13 @@
       <div class="footerContents">
         <div class="footerContents-contact">
           <div class="enterprise-logo">
-            <img src="./assets/images/svg/logo-footer.svg" alt="PACIFIC MALL DEVELOPMENT" />
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/svg/logo-footer.svg" alt="PACIFIC MALL DEVELOPMENT" />
           </div>
           <div class="enterprise-detail">
             <p class="name">パシフィックモール開発株式会社</p>
             <p class="address">
               東京都千代田区大手町0-1-2<br />
-              パシフィックモールビルディング18F 
+              パシフィックモールビルディング18F
             </p>
           </div>
         </div>
@@ -307,4 +309,5 @@
     </footer>
   </div><!-- /.container -->
 </body>
+
 </html>
