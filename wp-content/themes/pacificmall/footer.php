@@ -46,6 +46,7 @@
       <p class="copyright">
         <small class="copyright-text">&#169; 2023 PACIFIC MALL DEVELOPMENT CO., LTD.</small>
       </p>
+      <?php wp_footer(); ?>
     </footer>
     </div><!-- /.container -->
     </body>
